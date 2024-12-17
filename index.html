@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zakria & Maria MEETUP #1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Zakria & Maria's 1st MEETUP!!!!</h1>
+    </header>
+
+    <section class="gallery">
+      <img
+        src="bowling1.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="Bowling Game 1 where you got SMOKEDDDD"
+        alt="Bowling 1"
+      />
+      <img
+        src="bowling2.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="Bowling Game 2 where you got SMOKEDDDD"
+        alt="Bowling 2"
+      />
+      <img
+        src="castle.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="LOOK AT THE REALLY COOL CASTLE"
+        alt="Castle"
+      />
+      <img
+        src="eating.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="THIS PICTURE OF US AAAAAAAAA"
+        alt="Eating Faces"
+      />
+      <img
+        src="mirror1.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="MIRROR PIC NUMERO UNO"
+        alt="Mirror Pic 1"
+      />
+      <img
+        src="mirror2.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="MIRROR NUMERO DOS"
+        alt="Mirror Pic 2"
+      />
+      <img
+        src="photobooth.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="THE PHOTOBOOTH ONE AAAAAAAAA"
+        alt="Photobooth"
+      />
+      <img
+        src="building.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="this awesome sauce building"
+        alt="Cool Building"
+      />
+      <img
+        src="shoes.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="the SHOE PICCCC"
+        alt="Shoes Pic"
+      />
+      <img
+        src="subway.jpeg"
+        class="gallery-img"
+        onclick="openLightbox(this)"
+        data-caption="the glasgow subway"
+        alt="Subway Station"
+      />
+    </section>
+
+    <div id="lightbox" onclick="closeLightbox()">
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Enlarged Photo" />
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Created with ❤️ by Zakria</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
